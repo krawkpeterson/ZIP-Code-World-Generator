@@ -1,0 +1,32 @@
+# Godot 4+
+.godot/
+*.translation
+
+# Import / editor churn (keep intentional .import next to assets)
+*.tmp
+*.temp
+*~
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local runtime / caches (downloaded ZIP tiles, impostors)
+user://
+.import/
+export_presets.cfg
+*.pck
+*.zip
+*.exe
+*.dll
+
+# Scratch / review dumps
+_review_*.png
+*.log
+.mono/
+data_*/
